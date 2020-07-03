@@ -19,11 +19,11 @@
       <div class="spinner-grow text-light" role="status"><span class="sr-only">Loading...</span></div>
     </div>
     <!-- Header Area-->
-    <header class="header-area">
+    <header class="header-area blog-header-area">
       <div class="container">
         <div class="classy-nav-container breakpoint-off">
           <nav class="classy-navbar justify-content-between" id="saasboxNav">
-            <!-- Logo--><a class="nav-brand mr-5" href="index.html"><img src="img/core-img/logo-white.png" alt=""></a>
+            <!-- Logo--><a class="nav-brand mr-5" href="index.html"><img src="img/core-img/logo.png" alt="logo" width="200px"></a>
             <!-- Navbar Toggler-->
             <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
             <!-- Menu-->
@@ -112,89 +112,99 @@
         </div>
       </div>
     </header>
-    <!-- Breadcrumb Area-->
-    <div class="breadcrumb--area bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/7.jpg');">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12">
-            <div class="breadcrumb-content">
-              <h2 class="breadcrumb-title">Blog Right Sidebar</h2>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page"><a href="#">Blog</a></li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Blog Area-->
-    <div class="saasbox--blog--area section-padding-120">
+    <!-- Scroll Indicator-->
+    <div id="scrollIndicator"></div>
+    <!-- saasbox Blog Area-->
+    <div class="saasbox--blog--area section-padding-200-100">
       <div class="container">
-        <div class="row justify-content-between">           
-          <div class="col-12 col-md-7">
-            <div class="row">
-              <!-- Single Blog Post-->
-              <div class="col-12">
-                <div class="card blog-card border-0 mb-50 no-boxshadow rounded-0"><a class="d-block mb-4" href="blog-card.html"><img src="img/bg-img/blog22.jpg" alt=""></a>
-                  <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="blog-card.html">
-                      <h4>Seven ways agency can improve your business.</h4></a>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                    <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Single Blog Post-->
-              <div class="col-12">
-                <div class="card blog-card border-0 mb-50 no-boxshadow rounded-0">
-                  <div class="image-wrap mb-4"><img src="img/bg-img/blog21.jpg" alt="">
-                    <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/watch?v=X_93H_60Pls"><i class="lni-play"></i></a></span>
-                  </div>
-                  <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="blog-card.html">
-                      <h4>Seven ways agency can improve your business.</h4></a>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                    <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Single Blog Post-->
-              <div class="col-12">
-                <div class="card blog-card border-0 mb-50 no-boxshadow rounded-0"><a class="d-block mb-4" href="blog-card.html"><img src="img/bg-img/blog20.jpg" alt=""></a>
-                  <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="blog-card.html">
-                      <h4>Seven ways agency can improve your business.</h4></a>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                    <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Single Blog Post-->
-              <div class="col-12">
-                <div class="card blog-card border-0 mb-50 no-boxshadow rounded-0">
-                  <div class="image-wrap mb-4"><img src="img/bg-img/blog19.jpg" alt="">
-                    <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/watch?v=X_93H_60Pls"><i class="lni-play"></i></a></span>
-                  </div>
-                  <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="blog-card.html">
-                      <h4>Seven ways agency can improve your business.</h4></a>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                    <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                  </div>
-                </div>
-              </div>
+        <div class="row justify-content-center justify-content-between">           
+          <div class="col-12 col-md-7 mb-5 mb-md-0">
+            <!-- Blog Details Area-->
+            <div class="single-blog-details-area"><img class="post-thumbnail mb-5" src="img/bg-img/blog22.jpg" alt="">
+              <div class="post-date mb-2">Oct 1, 2020</div>
+              <h2 class="mb-3">Seven ways agency can improve your business</h2>
+              <div class="post-meta mb-5"><a class="post-author" href="#">By Nazrul</a><a class="post-tutorial" href="#">Creative Agency</a></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, animi, numquam. Nam suscipit iste enim deleniti vitae facere earum doloribus, tempora alias quas voluptatibus aut, voluptates qui nihil, quisquam quos.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quibusdam, nam porro cupiditate itaque doloribus commodi aut mollitia repellendus. Cum consequuntur nihil, itaque numquam aspernatur nisi quo soluta tempora rem?</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet tempore officia, ab, pariatur harum quae cupiditate quia nisi atque qui tempora quis neque, molestiae doloribus repudiandae excepturi cum vero similique, aliquid laboriosam. Tempore vitae, quod rem architecto eum a dolores eveniet dolor aperiam hic alias suscipit, animi.</p>
+              <h4 class="mb-3">The reason why everyone love business.</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente enim eligendi natus ratione, quia, illo reiciendis voluptas nostrum expedita eum libero. Officiis sapiente non, totam numquam dolor. Dolores qui impedit voluptatem accusamus odio modi mollitia reiciendis quod tenetur accusantium optio soluta excepturi adipisci quidem nobis, totam reprehenderit consectetur omnis, nemo ea voluptatum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aliquam mollitia accusantium debitis dolore soluta temporibus, laborum, fuga tempora adipisci molestias. Nobis similique nulla eveniet incidunt reprehenderit nam, accusantium asperiores iure. Quas voluptatem, facere facilis repellat!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis asperiores, quo suscipit quaerat deserunt ullam et ab, dolor, architecto totam culpa temporibus. Quo, quidem. Molestiae, deserunt impedit neque.</p>
             </div>
-            <!-- Pagination Area-->
-            <div class="saasbox-pagination-area mb-5 mb-lg-0 mt-4">
-              <nav aria-label="Page navigation">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">4</a></li>
-                  <li class="page-item"><a class="page-link" href="#">...</a></li>
-                  <li class="page-item"><a class="page-link" href="#">9</a></li>
+            <!-- Post Tag & Share Button-->
+            <div class="post-tag-share-button d-sm-flex align-items-center justify-content-between my-5">
+              <div class="post-tag pb-5">
+                <ul class="d-flex align-items-center">
+                  <li><a href="#">agency</a></li>
+                  <li><a href="#">business</a></li>
+                  <li><a href="#">studio</a></li>
                 </ul>
-              </nav>
+              </div>
+              <div class="share-button pb-5"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-pinterest"></i></a></div>
+            </div>
+            <!-- Comments Area-->
+            <div class="comment_area mb-50 clearfix">
+              <h4 class="mb-5">03 Comments</h4>
+              <ol>
+                <!-- Single Comment Area-->
+                <li class="single_comment_area">
+                  <div class="comment-content d-flex">
+                    <div class="comment-author"><img src="img/bg-img/t4.png" alt="author"></div>
+                    <div class="comment-meta py-2">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h6>Lim Jannat</h6><a class="post-date" href="#">3h ago</a>
+                      </div>
+                      <p>You've saved our business! Thanks guys, keep up the good work! The best on the net!</p><a class="like" href="#">Like</a><a class="reply" href="#">Reply</a>
+                    </div>
+                  </div>
+                  <ol class="children">
+                    <!-- Single Comment Area-->
+                    <li class="single_comment_area">
+                      <div class="comment-content d-flex">
+                        <div class="comment-author"><img src="img/bg-img/t2.png" alt="author"></div>
+                        <div class="comment-meta py-2">
+                          <div class="d-flex align-items-center justify-content-between">
+                            <h6>Pryce R.</h6><a class="post-date" href="#">2h ago</a>
+                          </div>
+                          <p>I strongly recommend agency to EVERYONE interested in running a successful online business!</p><a class="like" href="#">Like</a><a class="reply" href="#">Reply</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </li>
+                <!-- Single Comment Area-->
+                <li class="single_comment_area">
+                  <div class="comment-content d-flex">
+                    <div class="comment-author"><img src="img/bg-img/t3.png" alt="author"></div>
+                    <div class="comment-meta py-2">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <h6>Juergen T.</h6><a class="post-date" href="#">41min ago</a>
+                      </div>
+                      <p>Absolutely wonderful! I wish I would have thought of it first. I would be lost without agency.</p><a class="like" href="#">Like</a><a class="reply" href="#">Reply</a>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+            </div>
+            <div class="contact-area">
+              <h4 class="mb-5">Leave A Comment</h4>
+              <form class="contact-from" action="#" method="post">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <input class="form-control mb-30" type="text" name="message-name" placeholder="Your Name">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <input class="form-control mb-30" type="email" name="message-email" placeholder="Your Email">
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control mb-30" name="message" placeholder="Type your comments..."></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn saasbox-btn" type="submit">Submit Comment</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
           <div class="col-12 col-md-5 col-lg-4">
@@ -312,14 +322,12 @@
           <div class="col-12 col-sm-10 col-lg-3">
             <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
               <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
-              <!-- Newsletter Form-->
               <div class="newsletter-form">
                 <form action="#">
                   <input class="form-control" type="email" placeholder="Enter email &amp; press enter">
                   <button class="btn d-none" type="submit">Go</button>
                 </form>
               </div>
-              <!-- Footer Social Icon-->
               <div class="footer-social-icon d-flex align-items-center"><a href="#" data-toggle="tooltip" data-placement="top" title="Facbook"><i class="fa fa-facebook"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube"></i></a></div>
             </div>
           </div>
@@ -414,9 +422,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/jarallax.min.js"></script>
     <script src="js/jarallax-video.min.js"></script>
-    <script src="js/default/cookiealert.js"></script>
-    <script src="js/default/jquery.passwordstrength.js"></script>
-    <script src="js/default/mail.js"></script>
+    <script src="js/default/scrollindicator.js"></script>
     <script src="js/default/active.js"></script>
   </body>
 </html>

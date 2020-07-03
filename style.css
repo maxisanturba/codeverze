@@ -291,6 +291,24 @@ img {
   padding-bottom: 70px;
 }
 
+.section-padding-8-4 {
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+.section-padding-15-4 {
+  padding-top: 15%;
+  padding-bottom: 4%;
+}
+
+
+.section-padding-200-100 {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+
+
 /* Scrollup */
 #scrollUp {
   bottom: 30px;
@@ -933,7 +951,7 @@ textarea:invalid {
   left: 0;
   right: 0;
   z-index: 1001;
-  background-color: #e09517;
+  background-color: #FFFFFF;
   box-shadow: 0 0.25rem 0.25rem 0 rgba(15, 30, 150, 0.2);
 }
 .header-area.sticky .classy-navbar {
@@ -948,6 +966,10 @@ textarea:invalid {
 .header-area.header2.sticky {
   background-color: #ffffff;
   box-shadow: 0 0.25rem 0.25rem 0 rgba(15, 30, 150, 0.2);
+}
+
+.blog-header-area .classy-navbar .classynav ul li a {
+  color: rebeccapurple!important;
 }
 
 /* Hero CSS */
@@ -5430,3 +5452,24 @@ img.mfp-img {
 .demo-preview-area .single-portfolio-area .overlay-content .portfolio-links a {
   padding-left: 1.25rem;
 }
+
+
+/* Custom CSS */
+
+/* /about.html */
+.about-description-section {
+  background:white;
+  padding-top:7.5%;
+}
+.newsletter-email-section {
+  background: #662790;
+}
+
+.about-services-section {
+  background: #f5f5ff ;
+}
+
+.about-services-section .card {
+  background: white;
+}
+
